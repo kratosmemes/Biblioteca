@@ -1,0 +1,11 @@
+<h1>Este es home</h1>
+
+<script>
+  let correo = "<%- (data.correo) %>";
+  let nombre = "<%- (data.nombre) %>";
+  let apellidos = "<%- (data.apellidos) %>";
+  
+  localStorage.setItem("nombre" , nombre);
+  localStorage.setItem("apellidos" , apellidos);
+  localStorage.setItem("correo" , correo);
+</script>
